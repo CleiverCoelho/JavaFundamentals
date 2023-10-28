@@ -14,11 +14,13 @@ public class Arrays {
 		
 		
 		ArrayList<Integer> intArray = new ArrayList<>();
-		for(int i = 0; i < 10; i++) {
+		for(int i = 20; i < 10; i--) {
 			intArray.add(i);
 		}
-		
-		System.out.print(intArray);
+		// get by index
+		System.out.println(intArray.get(0));
+		System.out.println(intArray.clone());
+
 	}
 
 }
