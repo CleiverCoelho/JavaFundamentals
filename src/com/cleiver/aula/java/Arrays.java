@@ -19,7 +19,6 @@ public class Arrays {
 		}
 		// get by index
 		System.out.println(intArray.get(0));
-		System.out.println(intArray.clone());
 
 	}
 
